@@ -1,3 +1,32 @@
+
+/* Pinegrow generated Theme Init Begin */
+$primary: #0d6efd;
+$secondary: #6c757d;
+$info: #0dcaf0;
+$success: #198754;
+$warning: #ffc107;
+$danger: #dc3545;
+$white: white;
+$light: #f8f9fa;
+$dark: #212529;
+html { font-size: 100% !important; }
+$grid-gutter-width: 30px;
+$border-radius: 1rem;
+$border-radius-lg: 1.2rem;
+$border-radius-sm: 0.8rem;
+$dropdown-border-radius: .25rem !default;
+$btn-border-radius: 0.25rem;
+$btn-border-radius-lg: 0.3rem;
+$btn-border-radius-sm: 0.2rem;
+$enable-shadows: false;
+$enable-negative-margins: true;
+$enable-gradients: false;
+$min-contrast-ratio: 3;
+body, html {
+    min-height: 100vh;
+}
+
+    /* Pinegrow generated Theme Init End */
 /* Bootstrap theme customized with Pinegrow Web Editor */
 /* Vars go before the @import */
 /* Click on the Uncomment icon in the Style panel to uncomment and customize the variables: */
@@ -21,3 +50,10 @@ $primary: $blue;
 @import "bootstrap/bootstrap";
 
 /* Custom CSS rules come here */
+
+/* Pinegrow generated Additional Rules Begin */
+body, html {
+    min-height: 100vh;
+}
+
+    /* Pinegrow generated Additional Rules End */
